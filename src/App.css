@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column1 {
+	position: fixed;
+	float: left;
+	background-color: rgba(8, 8, 8, 0.744);
+	width: 20%;
+	padding: 10px;
+	height: 900px;
+	margin-top: 0.2%;
+  }
+  
+  .column2 {
+	float: left;
+	width: 78%;
+	margin-left: 21.5%;
+	padding: 10px;
+	height: 900px;
+	margin-top: 0.2%;
+	position: relative;
+	overflow: auto;
+  }
+  
+  .column2::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('https://st2.depositphotos.com/38616904/46614/i/450/depositphotos_466148782-stock-photo-abstract-soft-cloud-background-pastel.jpg');
+	background-size: cover;
+	z-index: -1;
+	pointer-events: none;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }

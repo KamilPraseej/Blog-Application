@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 99vh; 
+    margin-top: -9px;
+    margin-left: -9px;
+    background-color: #f0f0f0; 
+}
+  
+.centered-content {
+    padding: 20px;
+    background-color: #b4d3dc; 
+    border-radius: 5px;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.centered-content h1{
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    width: 16%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 42%;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.helpdesk h1{
+    margin-top: 1%;
+    text-align: center;
+}
+
+.helpdesk textarea{
+    width: 60%;
+    margin: 5% 20%;
+}
